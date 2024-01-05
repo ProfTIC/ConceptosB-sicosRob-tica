@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3.2. Sistemas de computación física | Tema 3 - Conceptos básicos de la robótica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Lola Robles" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8 Portable - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Tema 3 - Conceptos básicos de la robótica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Tema 3 - Conceptos básicos de la robótica</a></li>
+   <li><a href="31_definicin.html" class="no-ch">3.1. Definición</a></li>
+   <li id="active"><a href="32_sistemas_de_computacin_fsica.html" class="active no-ch">3.2. Sistemas de computación física</a></li>
+   <li><a href="33_funcionamiento_de_un_robot.html" class="daddy">3.3. Funcionamiento de un robot</a>
+   <ul class="other-section">
+      <li><a href="partes_de_un_robot.html" class="no-ch">Partes de un robot</a></li>
+      <li><a href="cmo_construimos_un_robot.html" class="no-ch">¿Cómo construimos un robot?</a></li>
+      <li><a href="tipos_de_robots.html" class="no-ch">Tipos de robots</a></li>
+   </ul>
+   </li>
+   <li><a href="34_aplicaciones_de_la_robtica.html" class="no-ch">3.4. Aplicaciones de la robótica</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="31_definicin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="33_funcionamiento_de_un_robot.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">3.2. Sistemas de computación física</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id12">
+<div class="iDevice emphasis0" >
+<div id="ta12_132_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">La computación física es una disciplina que permite diseñar dispositivos, objetos e incluso entornos que establecen un mecanismo de comunicación entre el mundo físico y el mundo virtual. Por ejemplo, un ordenador o una tablet relacionan el mundo físico con el mundo virtual de las máquinas y de los ordenadores. En concreto, la computación física se refiere a la construcción de dispositivos que incluyen los siguientes elementos que interactúan con el entorno:</p>
+<ul>
+<li><a href="32_sistemas_de_computacin_fsica.html#sensores">Sensores</a></li>
+<li><a href="32_sistemas_de_computacin_fsica.html#controlador">Microcontroladores y tarjetas controladoras</a></li>
+<li><a href="32_sistemas_de_computacin_fsica.html#actuador">Actuadores</a></li>
+</ul>
+<p><img src="EsquemaCompFisica.png" alt="Esquema de un sistema de computación física" width="982" height="758" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Esta conexión es bidireccional, es decir, puede consistir en obtener información del entorno y enviarla a ordenadores para su procesado o bien al contrario, el uso de información para controlar motores, relés, luces y otros dispositivos capaces de actuar sobre el entorno.</p>
+<p>En este vídeo se resume el funcionamiento de un sistema de computación física</p>
+<figure class="exe-figure exe-media position-center" style="width: 1280px; text-align: center;"><iframe width="640" height="360" src="https://www.youtube.com/embed/0xDFLHrpqsk" allowfullscreen="allowfullscreen" data-mce-fragment="1">
+    </iframe>
+<figcaption class="figcaption"><a href="https://www.youtube.com/@lienivel3651" target="_blank" class="author" rel="noopener">https://www.youtube.com/@lienivel3651</a> - <a href="https://www.youtube.com/watch?v=0xDFLHrpqsk" target="_blank" class="title" rel="noopener"><em>https://www.youtube.com/watch?v=0xDFLHrpqsk</em></a></figcaption>
+</figure>
+<p>Una vez que hemos entendido cómo funciona un sistema de computación física, vamos a estudiar cada uno de sus elementos</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id13">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Sensores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta13_133_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="sensores"></a></p>
+<p>Un sensor es un dispositivo que detecta una determinada acción externa (por ejemplo, temperatura, presión, etc.), y la transmite adecuadamente. Técnicamente, es un dispositivo capaz de detectar magnitudes físicas o químicas (temperatura, humedad, intensidad luminosa, distancia, aceleración, inclinación, presión, fuerza, etc.) y transformarlas en variables eléctricas.</p>
+<p>Algunos de los sensores más usados en robótica son:</p>
+<ul>
+<li>Sensor de luminosidad (LDR, Light-dependent revistor)</li>
+<li>Sensor de temperatura (NTC, negative temperature coefficient)</li>
+<li>Sensor de temperatura y humedad</li>
+<li>Sensor de movimiento (PIR, passive infrared)</li>
+<li>Sensor de ultrasonidos</li>
+<li>Sensor de infrarrojos</li>
+<li>Final de carrera</li>
+<li>Acelerómetro</li>
+</ul>
+<p>Mira el vídeo si quieres tener más información sobre sensores:</p>
+<figure class="exe-figure exe-media position-center" style="width: 640px;"><iframe width="640" height="360" src="https://www.youtube.com/embed/jyOIq3UM63M" allowfullscreen="allowfullscreen"></iframe>
+<figcaption class="figcaption"><a href="https://www.youtube.com/@lienivel3651" target="_blank" class="author" rel="noopener">https://www.youtube.com/@lienivel3651</a> - <a href="https://www.youtube.com/embed/jyOIq3UM63M" target="_blank" class="title" rel="noopener"><em>https://www.youtube.com/embed/jyOIq3UM63M</em></a></figcaption>
+</figure>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id14">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Microcontroladores y tarjetas controladoras</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta14_120_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="controlador"></a></p>
+<p>Un <strong>microcontrolador</strong> es un <strong>circuito integrado programable</strong> que agrupa todas las funcionalidades básicas de un ordenador en un solo chip: unidad de proceso, memoria y periféricos de entrada y salida. Podríamos decir que con un microcontrolador podemos tener en un solo chip un ordenador de menor coste, pero con funciones limitadas.</p>
+<p>Por su parte, una <strong>tarjeta controladora</strong> es un circuito electrónico que nos sirve de interfaz entre el ordenador y los dispositivos que se deben controlar adaptando las señales de entrada y salida (sensores de temperatura, humedad, motores,...). Básicamente, las tarjetas controladoras disponen de un <strong>microcontrolador</strong> y <strong>puertos de entrada y salida</strong>.</p>
+<p>Algunas de las tarjetas controladoras que podemos encontrar hoy día en el mercado son:</p>
+<ul>
+<li>Arduino</li>
+<li>Micro:bit</li>
+<li>ESP:32</li>
+<li>Raspberry pi</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id15">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Actuadores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta15_121_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="actuador"></a></p>
+<p>Un actuador es un dispositivo capaz de transformar energía eléctrica en la activación de un proceso con el objetivo de generar un efecto sobre un proceso automatizado. Es decir, un actuador realizará cambios en el medio. Son periféricos de salida para las placas controladoras.</p>
+<p>Algunos de los principales actuadores que podemos utilizar en robótica son:</p>
+<ul>
+<li>Luces (diodos LED en la mayoría de los casos)</li>
+<li>Motores de corriente continua (CC).</li>
+<li>Servomotores</li>
+<li>Relés</li>
+<li>Pantallas</li>
+<li>Zumbadores</li>
+</ul>
+<p>En este vídeo tienes más información sobre los actuadores:</p>
+<figure class="exe-figure exe-media position-center" style="width: 640px;"><iframe width="640" height="360" src="https://www.youtube.com/embed/6KmIIFg2OAM" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<figcaption class="figcaption"><a href="https://www.youtube.com/@lienivel3651" target="_blank" class="author" rel="noopener">https://www.youtube.com/@lienivel3651</a> - <a href="https://www.youtube.com/watch?v=6KmIIFg2OAM" target="_blank" class="title" rel="noopener"><em>https://www.youtube.com/watch?v=6KmIIFg2OAM</em></a></figcaption>
+</figure>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Ejercicios de repaso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta16_122_2" class="block iDevice_content">
+<div class="pbl-task-description"><p>Contesta las siguientes preguntas usando tus propias palabras:</p>
+<ol>
+<li>¿Qué es un sistema de computación? </li>
+<li>Indica las partes de un sistema de computación. Describe brevemente cada una de ellas</li>
+<li>¿Qué es una placa controladora?</li>
+<li>Busca en internet información sobre las siguientes placas
+<ul>
+<li>Arduino</li>
+<li>Raspberry Pi</li>
+<li>Micro:bit</li>
+</ul>
+</li>
+<li>Por parejas, pensad en un sistema de computación física sencillo que tenga un sensor y un actuador. Describid cómo funcionaría</li>
+</ol></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="31_definicin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="33_funcionamiento_de_un_robot.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
